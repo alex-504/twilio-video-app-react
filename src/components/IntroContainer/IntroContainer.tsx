@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundImage: Swoosh,
+    backgroundColor: '#23586e',
     backgroundSize: 'cover',
     width: '296px',
     [theme.breakpoints.down('sm')]: {
@@ -65,6 +65,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     },
   },
   twilioLogo: {
+    display: 'none',
     position: 'absolute',
     top: 0,
     left: 0,
@@ -114,7 +115,7 @@ const IntroContainer = (props: IntroContainerProps) => {
             <div className={classes.logoContainer}>
               <VideoLogo />
               <Typography variant="h6" className={classes.title}>
-                Twilio Programmable Video
+                Mentor Consulting Room
               </Typography>
             </div>
           </div>
